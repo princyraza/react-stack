@@ -5,7 +5,7 @@ class App extends React.Component {
     super();
     this.state = {
       messages: [
-        'Hello there how are you',
+        'Hello jkkhg how are you',
         'I am fine, and you?'
       ]
     };
@@ -15,7 +15,7 @@ class App extends React.Component {
     debugger;
     var messageNodes = this.state.messages.map((message) => {
       return (
-        <div style={{color: 'green'}}>{message}</div>
+        <div>{message}</div>
       );
     });
 
